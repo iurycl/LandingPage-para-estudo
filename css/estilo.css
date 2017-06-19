@@ -1,0 +1,315 @@
+/*-------------------------------TODO-----------------------------------------*/
+body {
+    font-family: "Roboto", sans-serif;
+    color: #4d4d4d;
+}
+
+h1,h2,h3 {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/*------------------------------NAVEGAÇÃO-----------------------------------*/
+body{
+    font-family: "Roboto", sans-serif;
+    background: white;
+}
+
+#Header {
+background-color: #05233D;
+height: 100px;
+}
+/* MENU -----------------------------------------------------------*/
+
+.menu {
+    width: 100%;
+    height: 70px;
+    background-color: #05233D;
+    font-family: "Roboto" , sans-serif;
+
+}
+
+.menu ul{
+    list-style: nome;
+    position: relative;
+    list-style-type: none;
+    
+}
+
+.menu ul li {
+    padding-top: 7px;
+    width: 150px;
+    float: right;
+    text-decoration: none;
+}
+
+.menu a {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    text-align: right;
+    background-color: #05233D;
+    color: #FFFFFF;
+}
+li {
+    
+}
+
+label[for="bt_menu"]{
+    padding: 5px;
+    background-color: #05233D; 
+    color: #FFFFFF;
+    font-family: "roboto", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+#bt_menu {
+    display: none;
+}
+
+label[for="bt_menu"]{
+    display: none;
+    
+    
+}
+@media(max-width: 700px){
+    label[for="bt_menu"]{
+    display: block;
+    float: right;
+    
+    
+    }
+    #bt_menu:checked ~.menu{
+        margin-left: 0;
+    }
+    
+    
+    .menu {
+        margin-top: 5px;
+        margin-left: -100%;
+        transition: all .4s;
+        text-decoration: none;
+        
+    }
+    .menu ul li {
+        width: 100%;
+    }
+}
+
+#fundoMenu{
+    background-color:  #05233D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------CABEÇALHO -----------------------------------------*/
+
+header {
+    background-color: #05233D;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 50px;
+}
+.botao {
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	color: #f7ce00;
+	padding: 10px 40px;
+	background: -moz-linear-gradient(
+		top,
+		#FF4040 0%,
+		#FF4040);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#FF4040),
+		to(#FF4040));
+	-moz-border-radius: 14px;
+	-webkit-border-radius: 14px;
+	border-radius: 14px;
+	border: 0px solid #ffffff;
+	-moz-box-shadow:
+		0px 0px 0px rgba(255,255,255,0),
+		inset 0px 0px 1px rgba(23,6,21,0);
+	-webkit-box-shadow:
+		0px 0px 0px rgba(255,255,255,0),
+		inset 0px 0px 1px rgba(23,6,21,0);
+	box-shadow:
+		0px 0px 0px rgba(255,255,255,0),
+		inset 0px 0px 1px rgba(23,6,21,0);
+	text-shadow:
+		0px 0px 0px rgba(181,181,181,0),
+		0px 0px 0px rgba(255,0,0,0);
+}
+
+#botaoIniciar {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;    
+}
+/*----------------------SERVIÇO------------------------------------------------*/
+#container {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 150px;
+    padding-top: 50px;
+}
+
+
+#column-left{ 
+    float: left; 
+    width: 33.33%;
+    text-align: center;
+    
+
+
+}
+#column-center{ 
+    display: inline-block; 
+    width: 33.33%; 
+    text-align: center;
+
+ 
+}
+
+#column-right{ 
+    float: right; 
+    width: 33.33%;
+    text-align: center;
+
+
+}
+#left img {
+    width: 100%;
+}
+
+#center img {
+    width: 100%;
+}
+
+#right img {
+    width: 100%;
+}
+#servicos {
+    text-align: center;
+    
+}
+
+
+
+/*----------------------PORTFOLIO ---------------------------------------------*/
+#portfolio {
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #E0FFFF; 
+
+    
+}
+#portfolio h2 {
+    text-align: center;
+}
+#portfolio p {
+    text-align: center;
+}
+#portfolio img {
+    width: 20%;
+    padding: 1%;
+}
+#imgPort {
+    width: 100%;
+    text-align: center;
+    
+}
+
+/* ------------------------CONTATO-------------------------------------------- */
+section#contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#linha {
+    top : 5px;
+    text-shadow: 0 0 0.2em #00D2CC, 0 0 0.2em #00D2CC;
+    background-position:center;
+    
+    
+    
+}
+
+.form-group {
+    padding-left: 150px;
+    padding-right: 150px;
+    
+}
+#botaoEnviar {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.botao1 {
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	color: #f7ce00;
+	padding: 10px 40px;
+	background: -moz-linear-gradient(
+		top,
+		#05233D 0%,
+		#05233D);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#05233D),
+		to(#05233D));
+	-moz-border-radius: 14px;
+	-webkit-border-radius: 14px;
+	border-radius: 14px;
+	border: 0px solid #ffffff;
+	-moz-box-shadow:
+		0px 0px 0px rgba(255,255,255,0),
+		inset 0px 0px 1px rgba(23,6,21,0);
+	-webkit-box-shadow:
+		0px 0px 0px rgba(255,255,255,0),
+		inset 0px 0px 1px rgba(23,6,21,0);
+	box-shadow:
+		0px 0px 0px rgba(255,255,255,0),
+		inset 0px 0px 1px rgba(23,6,21,0);
+	text-shadow:
+		0px 0px 0px rgba(181,181,181,0),
+		0px 0px 0px rgba(255,0,0,0);
+}
+
+/*------------------------RODAPE------------------------------------------- */
+
+footer {
+    Height : 70px;
+    display: flex;
+    background-color: #05233D;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer div {
+    font-family: "roboto", sans-serif;
+    color: white;
+    font-size: 14px;
+    padding-top: 25px;
+    text-align: center;
+    
+    
+}
+
+/*--------------------------------------------------------------------------*/
